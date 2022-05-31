@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang cá nhân</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/66d2101b44.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container-fluid" id="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Hello AE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item active" role="presentation">
+              <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Resume</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">Service</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+            </li>
+            <li class="nav-item" role="presentation">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+          
+      </div>
+    </nav>
+    <!-- start tab-content -->
+    <div class="tab-content" id="myTabContent">
+        <!-- start id home tabs -->
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div id="main_body">
+                <div id="main_body-top">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="./avatar_intro.png" id="avatar" alt="" srcset="">
+                    </div>
+                    <div class="col-sm-8 ">
+                      <div id="info">
+                        <h1>Alex Smith</h3>
+                        <p>Frontend Developer</p>
+                        <ul class="social-icon">
+                          <li><i class="fa-brands fa-twitter"></i></li>
+                          <li><i class="fa-brands fa-facebook"></i></li>
+                          <li><i class="fa-brands fa-instagram"></i></li>
+                          <li><i class="fa-brands fa-github"></i></li>
+                          <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        </ul>  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="main_body-bot">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4 class="d-flex">About&ensp;<p style="color:aqua">Me</p></h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit porro recusandae nam! Reiciendis veritatis unde provident veniam. Cumque voluptate similique fugiat, officiis molestiae iusto! Quisquam error non amet obcaecati.</p>
+                        </div>
+                        <div class="col-sm-6">
+                          <table class="table table-borderless">
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Age :</th>
+                                  <td>21</td>
+                              
+                                </tr>
+                                <tr>
+                                  <th scope="row">Address :</th>
+                                  <td>Nam Dinh</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Email :</th>
+                                  <td class="email">dothuongton@gmail.com</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Phone :</th>
+                                  <td>0123456789</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -home -tab -->
+
+        <!-- start resume tabs -->
+        <div class="tab-pane fade" id="resume" role="tabpanel" aria-labelledby="resume-tab">
+            <div id="resume-tab-content">
+                <div id="resume-content-top">
+                    <h3 style="color:#fff" class="d-flex justify-content-center">RESUME</h3>
+                </div>
+                <div id="resume-content-bot">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="box">
+                                <ul id="first-list">
+                                    <li>
+                                        <span></span>
+                                        <div class="title">comment #01</div>
+                                        <div class="info">the best animation , the best toturials you would ever see .</div>
+                                        <div class="name">- Ton -</div>
+                                        <div class="time">
+                                            <span>JUN, 17<sup>th</sup></span>
+                                            <span>12:00 AM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <div class="title">summery #01</div>
+                                        <div class="info">the best animation , the best toturials you would ever see here only . you can learn how to animate and how to use SVG . even else you can add your own animations .</div>
+                                        <div class="name">- eng. amr -</div>
+                                        <div class="time">
+                                            <span>JUN, 29<sup>th</sup></span>
+                                            <span>11:36 AM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <div class="title">comment #02</div>
+                                        <div class="info">Mot hai ba bon nam</div>
+                                        <div class="name">- Ton -</div>
+                                        <div class="time">
+                                            <span>FEB, 2<sup>nd</sup></span>
+                                            <span>02:00 PM</span>
+                                        </div>
+                                    </li>
+                                    
+                                    <div class="arrow" id="btn1">                            
+                                </div> 
+                                </ul>
+                                <ul id="second-list">
+                                </ul>                
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box">
+                                <ul id="first-list">
+                                    <li>
+                                        <span></span>
+                                        <div class="title">comment #01</div>
+                                        <div class="info">the best animation , the best toturials you would ever see .</div>
+                                        <div class="name">- Ton -</div>
+                                        <div class="time">
+                                            <span>JUN, 17<sup>th</sup></span>
+                                            <span>12:00 AM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <div class="title">summery #01</div>
+                                        <div class="info">the best animation , the best toturials you would ever see here only . you can learn how to animate and how to use SVG . even else you can add your own animations .</div>
+                                        <div class="name">- eng. amr -</div>
+                                        <div class="time">
+                                            <span>JUN, 29<sup>th</sup></span>
+                                            <span>11:36 AM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <div class="title">comment #02</div>
+                                        <div class="info">Mot hai ba bon nam</div>
+                                        <div class="name">- Ton -</div>
+                                        <div class="time">
+                                            <span>FEB, 2<sup>nd</sup></span>
+                                            <span>02:00 PM</span>
+                                        </div>
+                                    </li>
+                                    
+                                    <div class="arrow" id="btn1">                            
+                                </div> 
+                                </ul>
+                                <ul id="second-list">
+                                </ul>                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end resume tabs -->
+
+
+        <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">---</div>
+        <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">...</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+
+
+      </div>
+    
+ 
+</div>
+
+  
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
