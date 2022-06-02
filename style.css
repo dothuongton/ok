@@ -40,7 +40,7 @@ td{
   height: 300px;
   border-top-left-radius:20px;
   border-top-right-radius:  20px;
-  background-color: #359cf4;
+  background-color: #68A7AD;
 }
 .email{
   color:#359cf4;
@@ -128,7 +128,7 @@ ul.social-icon{
 
 .box{
   margin:0 10%;
-  height: 630px;
+  height: 430px;
   /* overflow: hidden; */
   padding: 10px 0 20px 30px
 }
@@ -331,4 +331,8 @@ svg{
 #form-contact{
   font-weight: 400;
   color: grey;
+}
+.skill-progress li{
+  list-style: none;
+  margin-bottom: 20px;
 }
